@@ -75,7 +75,8 @@ dataset$Activity<-factor(dataset$Activity,labels=activitylabels)
 
 # Calculate mean by subjectID and Activity, write to tidydata
 tidydata<-aggregate(.~Activity+subjectID, data=dataset, FUN=mean)
+tidydata$subjectID<-as.integer(tidydata$subjectID)
 
 # Output tidydata
-write.table(tidydata,file="../data/tidydata.txt")
+write.table(tidydata,file="../data/tidydata.txt",row.names=FALSE)
 
