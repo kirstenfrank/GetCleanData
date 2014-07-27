@@ -3,7 +3,7 @@ GetCleanData
 
 for the Getting and Cleaning Data project
 
-
+## Overview and use
 run_analysis does all the steps in the project.
 To read the tidy dataset in, use read.table.
 
@@ -48,3 +48,14 @@ accelerometers and gyroscopes. For this analysis, only those calculated measures
 involving mean or standard deviation were used. The mean of each of those measures was 
 calculated for each subject-activity combination.
 
+# Acknowledgements
+
+Data was collected by Samsung. 
+Data is stored at the University of California-Irvine in the Machine Learning Repository. 
+
+http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones 
+
+Descriptions are based heavily on the interpretations from Jeff Leek (written in the assignment)
+and the CTAs, David Hood and Wendel Hope in the Forum 
+https://class.coursera.org/getdata-005/forum/thread?thread_id=23
+And all contributors to that thread.
