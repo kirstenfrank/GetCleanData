@@ -1,92 +1,92 @@
 Code Book
 
 ##variables
-Activity		factor	ranges from [1,6], with descriptive labels	describes the activity of the subject	
-subjectID		integer	ranges from [1,30]				describes the identity of the subject
-timeBodyAccmeanX	numeric	ranges from [-1,1]
-timeBodyAccmeanY	numeric	ranges from [-1,1]
-timeBodyAccmeanZ
-timeBodyAccstdX
-timeBodyAccstdY
-timeBodyAccstdZ
-timeGravityAccmeanX
-timeGravityAccmeanY
-timeGravityAccmeanZ
-timeGravityAccstdX
-timeGravityAccstdY
-timeGravityAccstdZ
-timeBodyAccJerkmeanX
-timeBodyAccJerkmeanY
-timeBodyAccJerkmeanZ
-timeBodyAccJerkstdX
-timeBodyAccJerkstdY
-timeBodyAccJerkstdZ
-timeBodyGyromeanX
-timeBodyGyromeanY
-timeBodyGyromeanZ
-timeBodyGyrostdX
-timeBodyGyrostdY
-timeBodyGyrostdZ
-timeBodyGyroJerkmeanX
-timeBodyGyroJerkmeanY
-timeBodyGyroJerkmeanZ
-timeBodyGyroJerkstdX
-timeBodyGyroJerkstdY
-timeBodyGyroJerkstdZ
-timeBodyAccMagmean
-timeBodyAccMagstd
-timeGravityAccMagmean
-timeGravityAccMagstd
-timeBodyAccJerkMagmean
-timeBodyAccJerkMagstd
-timeBodyGyroMagmean
-timeBodyGyroMagstd
-timeBodyGyroJerkMagmean
-timeBodyGyroJerkMagstd
-freqBodyAccmeanX
-freqBodyAccmeanY
-freqBodyAccmeanZ
-freqBodyAccstdX
-freqBodyAccstdY
-freqBodyAccstdZ
-freqBodyAccmeanFreqX
-freqBodyAccmeanFreqY
-freqBodyAccmeanFreqZ
-freqBodyAccJerkmeanX
-freqBodyAccJerkmeanY
-freqBodyAccJerkmeanZ
-freqBodyAccJerkstdX
-freqBodyAccJerkstdY
-freqBodyAccJerkstdZ
-freqBodyAccJerkmeanFreqX
-freqBodyAccJerkmeanFreqY
-freqBodyAccJerkmeanFreqZ
-freqBodyGyromeanX
-freqBodyGyromeanY
-freqBodyGyromeanZ
-freqBodyGyrostdX
-freqBodyGyrostdY
-freqBodyGyrostdZ
-freqBodyGyromeanFreqX
-freqBodyGyromeanFreqY
-freqBodyGyromeanFreqZ
-freqBodyAccMagmean
-freqBodyAccMagstd
-freqBodyAccMagmeanFreq
-freqBodyAccJerkMagmean
-freqBodyAccJerkMagstd
-freqBodyAccJerkMagmeanFreq
-freqBodyGyroMagmean
-freqBodyGyroMagstd
-freqBodyGyroMagmeanFreq
-freqBodyGyroJerkMagmean
-freqBodyGyroJerkMagstd
-freqBodyGyroJerkMagmeanFreq
-angletimeBodyAccMean_gravity
-angletimeBodyAccJerkMean_gravityMean
-angletimeBodyGyroMean_gravityMean
-angletimeBodyGyroJerkMean_gravityMean
-angleX_gravityMean
-angleY_gravityMean
-angleZ_gravityMean
+Activity				factor	ranges from [1,6], with descriptive labels	describes the activity of the subject	
+subjectID				integer	ranges from [1,30]				describes the identity of the subject
+timeBodyAccmeanX			numeric	ranges from [-1,1]
+timeBodyAccmeanY			numeric	ranges from [-1,1]
+timeBodyAccmeanZ			numeric	ranges from [-1,1]
+timeBodyAccstdX				numeric	ranges from [-1,1]
+timeBodyAccstdY				numeric	ranges from [-1,1]
+timeBodyAccstdZ				numeric	ranges from [-1,1]
+timeGravityAccmeanX			numeric	ranges from [-1,1]
+timeGravityAccmeanY			numeric	ranges from [-1,1]
+timeGravityAccmeanZ			numeric	ranges from [-1,1]
+timeGravityAccstdX			numeric	ranges from [-1,1]
+timeGravityAccstdY			numeric	ranges from [-1,1]
+timeGravityAccstdZ			numeric	ranges from [-1,1]
+timeBodyAccJerkmeanX			numeric	ranges from [-1,1]
+timeBodyAccJerkmeanY			numeric	ranges from [-1,1]
+timeBodyAccJerkmeanZ			numeric	ranges from [-1,1]
+timeBodyAccJerkstdX			numeric	ranges from [-1,1]
+timeBodyAccJerkstdY			numeric	ranges from [-1,1]
+timeBodyAccJerkstdZ			numeric	ranges from [-1,1]
+timeBodyGyromeanX			numeric	ranges from [-1,1]
+timeBodyGyromeanY			numeric	ranges from [-1,1]
+timeBodyGyromeanZ			numeric	ranges from [-1,1]
+timeBodyGyrostdX			numeric	ranges from [-1,1]
+timeBodyGyrostdY			numeric	ranges from [-1,1]
+timeBodyGyrostdZ			numeric	ranges from [-1,1]
+timeBodyGyroJerkmeanX			numeric	ranges from [-1,1]
+timeBodyGyroJerkmeanY			numeric	ranges from [-1,1]
+timeBodyGyroJerkmeanZ			numeric	ranges from [-1,1]
+timeBodyGyroJerkstdX			numeric	ranges from [-1,1]
+timeBodyGyroJerkstdY			numeric	ranges from [-1,1]
+timeBodyGyroJerkstdZ			numeric	ranges from [-1,1]
+timeBodyAccMagmean			numeric	ranges from [-1,1]
+timeBodyAccMagstd			numeric	ranges from [-1,1]
+timeGravityAccMagmean			numeric	ranges from [-1,1]
+timeGravityAccMagstd			numeric	ranges from [-1,1]
+timeBodyAccJerkMagmean			numeric	ranges from [-1,1]
+timeBodyAccJerkMagstd			numeric	ranges from [-1,1]
+timeBodyGyroMagmean			numeric	ranges from [-1,1]
+timeBodyGyroMagstd			numeric	ranges from [-1,1]
+timeBodyGyroJerkMagmean			numeric	ranges from [-1,1]
+timeBodyGyroJerkMagstd			numeric	ranges from [-1,1]
+freqBodyAccmeanX			numeric	ranges from [-1,1]
+freqBodyAccmeanY			numeric	ranges from [-1,1]
+freqBodyAccmeanZ			numeric	ranges from [-1,1]
+freqBodyAccstdX				numeric	ranges from [-1,1]
+freqBodyAccstdY				numeric	ranges from [-1,1]
+freqBodyAccstdZ				numeric	ranges from [-1,1]
+freqBodyAccmeanFreqX			numeric	ranges from [-1,1]
+freqBodyAccmeanFreqY			numeric	ranges from [-1,1]
+freqBodyAccmeanFreqZ			numeric	ranges from [-1,1]
+freqBodyAccJerkmeanX			numeric	ranges from [-1,1]
+freqBodyAccJerkmeanY			numeric	ranges from [-1,1]
+freqBodyAccJerkmeanZ			numeric	ranges from [-1,1]
+freqBodyAccJerkstdX			numeric	ranges from [-1,1]
+freqBodyAccJerkstdY			numeric	ranges from [-1,1]
+freqBodyAccJerkstdZ			numeric	ranges from [-1,1]
+freqBodyAccJerkmeanFreqX		numeric	ranges from [-1,1]
+freqBodyAccJerkmeanFreqY		numeric	ranges from [-1,1]
+freqBodyAccJerkmeanFreqZ		numeric	ranges from [-1,1]
+freqBodyGyromeanX			numeric	ranges from [-1,1]
+freqBodyGyromeanY			numeric	ranges from [-1,1]
+freqBodyGyromeanZ			numeric	ranges from [-1,1]
+freqBodyGyrostdX			numeric	ranges from [-1,1]
+freqBodyGyrostdY			numeric	ranges from [-1,1]
+freqBodyGyrostdZ			numeric	ranges from [-1,1]
+freqBodyGyromeanFreqX			numeric	ranges from [-1,1]
+freqBodyGyromeanFreqY			numeric	ranges from [-1,1]
+freqBodyGyromeanFreqZ			numeric	ranges from [-1,1]
+freqBodyAccMagmean			numeric	ranges from [-1,1]
+freqBodyAccMagstd			numeric	ranges from [-1,1]
+freqBodyAccMagmeanFreq			numeric	ranges from [-1,1]
+freqBodyAccJerkMagmean			numeric	ranges from [-1,1]
+freqBodyAccJerkMagstd			numeric	ranges from [-1,1]
+freqBodyAccJerkMagmeanFreq		numeric	ranges from [-1,1]
+freqBodyGyroMagmean			numeric	ranges from [-1,1]
+freqBodyGyroMagstd			numeric	ranges from [-1,1]
+freqBodyGyroMagmeanFreq			numeric	ranges from [-1,1]
+freqBodyGyroJerkMagmean			numeric	ranges from [-1,1]
+freqBodyGyroJerkMagstd			numeric	ranges from [-1,1]
+freqBodyGyroJerkMagmeanFreq		numeric	ranges from [-1,1]
+angletimeBodyAccMean_gravity		numeric	ranges from [-1,1]
+angletimeBodyAccJerkMean_gravityMean	numeric	ranges from [-1,1]
+angletimeBodyGyroMean_gravityMean	numeric	ranges from [-1,1]
+angletimeBodyGyroJerkMean_gravityMean	numeric	ranges from [-1,1]
+angleX_gravityMean			numeric	ranges from [-1,1]
+angleY_gravityMean			numeric	ranges from [-1,1]
+angleZ_gravityMean			numeric	ranges from [-1,1]
 
