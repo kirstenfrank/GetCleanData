@@ -3,27 +3,27 @@ Code Book
 ##variables
 Activity				factor	ranges from [1,6], with descriptive labels	describes the activity of the subject	
 subjectID				integer	ranges from [1,30]				describes the identity of the subject
-timeBodyAccmeanX			numeric	ranges from [-1,1]
-timeBodyAccmeanY			numeric	ranges from [-1,1]
-timeBodyAccmeanZ			numeric	ranges from [-1,1]
-timeBodyAccstdX				numeric	ranges from [-1,1]
-timeBodyAccstdY				numeric	ranges from [-1,1]
-timeBodyAccstdZ				numeric	ranges from [-1,1]
-timeGravityAccmeanX			numeric	ranges from [-1,1]
-timeGravityAccmeanY			numeric	ranges from [-1,1]
-timeGravityAccmeanZ			numeric	ranges from [-1,1]
-timeGravityAccstdX			numeric	ranges from [-1,1]
-timeGravityAccstdY			numeric	ranges from [-1,1]
-timeGravityAccstdZ			numeric	ranges from [-1,1]
-timeBodyAccJerkmeanX			numeric	ranges from [-1,1]
-timeBodyAccJerkmeanY			numeric	ranges from [-1,1]
-timeBodyAccJerkmeanZ			numeric	ranges from [-1,1]
-timeBodyAccJerkstdX			numeric	ranges from [-1,1]
-timeBodyAccJerkstdY			numeric	ranges from [-1,1]
-timeBodyAccJerkstdZ			numeric	ranges from [-1,1]
-timeBodyGyromeanX			numeric	ranges from [-1,1]
-timeBodyGyromeanY			numeric	ranges from [-1,1]
-timeBodyGyromeanZ			numeric	ranges from [-1,1]
+timeBodyAccmeanX			numeric	ranges from [-1,1]				mean of time domain body acceleration in X direction
+timeBodyAccmeanY			numeric	ranges from [-1,1]				mean of time domain body acceleration in Y direction
+timeBodyAccmeanZ			numeric	ranges from [-1,1]				mean of time domain body acceleration in Z direction
+timeBodyAccstdX				numeric	ranges from [-1,1]				standard deviation of time domain body acceleration in X direction
+timeBodyAccstdY				numeric	ranges from [-1,1]				standard deviation of time domain body acceleration in Y direction
+timeBodyAccstdZ				numeric	ranges from [-1,1]				standard deviation of time domain body acceleration in Z direction
+timeGravityAccmeanX			numeric	ranges from [-1,1]				mean of time domain gravity acceleration in X direction
+timeGravityAccmeanY			numeric	ranges from [-1,1]				mean of time domain gravity acceleration in Y direction
+timeGravityAccmeanZ			numeric	ranges from [-1,1]				mean of time domain gravity acceleration in Z direction
+timeGravityAccstdX			numeric	ranges from [-1,1]				standard deviation of time domain gravity acceleration in X direction
+timeGravityAccstdY			numeric	ranges from [-1,1]				standard deviation of time domain gravity acceleration in Y direction
+timeGravityAccstdZ			numeric	ranges from [-1,1]				standard deviation of time domain gravity acceleration in Z direction
+timeBodyAccJerkmeanX			numeric	ranges from [-1,1]				mean of time domain body acceleration derivative (Jerk) in X direction
+timeBodyAccJerkmeanY			numeric	ranges from [-1,1]				mean of time domain body acceleration derivative (Jerk) in Y direction
+timeBodyAccJerkmeanZ			numeric	ranges from [-1,1]				mean of time domain body acceleration derivative (Jerk) in Z direction
+timeBodyAccJerkstdX			numeric	ranges from [-1,1]				standard deviation of time domain body acceleration derivative (Jerk) in X direction
+timeBodyAccJerkstdY			numeric	ranges from [-1,1]				standard deviation of time domain body acceleration derivative (Jerk) in Y direction
+timeBodyAccJerkstdZ			numeric	ranges from [-1,1]				standard deviation of time domain body acceleration derivative (Jerk) in Z direction
+timeBodyGyromeanX			numeric	ranges from [-1,1]				mean of time domain body acceleration in X direction from gyroscope
+timeBodyGyromeanY			numeric	ranges from [-1,1]				mean of time domain body acceleration in Y direction from gyroscope
+timeBodyGyromeanZ			numeric	ranges from [-1,1]				mean of time domain body acceleration in Z direction from gyroscope
 timeBodyGyrostdX			numeric	ranges from [-1,1]
 timeBodyGyrostdY			numeric	ranges from [-1,1]
 timeBodyGyrostdZ			numeric	ranges from [-1,1]
