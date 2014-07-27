@@ -52,6 +52,7 @@ features<-gsub("\\()","",features)
 features<-gsub("\\(","",features)
 features<-gsub("\\)","",features)
 features<-gsub("\\,","_",features)
+features<-gsub("BodyBody","Body",features)
 features<-gsub("anglet","angletime",features)
 features<-sub("^t","time",features)
 features<-sub("^f","freq",features)
@@ -71,7 +72,10 @@ dataset<-dataset[,selection]
 # assign activity labels to the 6 types of activity
 activitylabels<-c("WALKING","WALKINGUPSTAIRS","WALKINGDOWNSTAIRS","SITTING","STANDING","LAYING")
 dataset$Activity<-factor(dataset$Activity,labels=activitylabels)
-dataset$subjectactivity<-paste(dataset$subjectID,dataset$Activity,sep="")
-dataset$subjectactivity<-factor(dataset$subjectactivity)
 
+# Calculate mean by subjectID and Activity, write to tidydata
+tidydata<-aggregate(.~Activity+subjectID, data=dataset, FUN=mean)
+
+# Output tidydata
+write.table(tidydata,file="../data/tidydata.txt")
 
