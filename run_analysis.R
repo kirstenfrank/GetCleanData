@@ -71,6 +71,7 @@ dataset<-dataset[,selection]
 # assign activity labels to the 6 types of activity
 activitylabels<-c("WALKING","WALKINGUPSTAIRS","WALKINGDOWNSTAIRS","SITTING","STANDING","LAYING")
 dataset$Activity<-factor(dataset$Activity,labels=activitylabels)
-
+dataset$subjectactivity<-paste(dataset$subjectID,dataset$Activity,sep="")
+dataset$subjectactivity<-factor(dataset$subjectactivity)
 
 
