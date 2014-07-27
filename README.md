@@ -39,7 +39,7 @@ Done in step 1.5
 The aggregate does this. This dataset is called tidydata and is written out as tidydata.txt.
 
 ## Experiment and variable details
-The experiment was performed using accelerometers and gyroscopess in smartphones (Samsung).
+The experiment was performed using accelerometers and gyroscopes in smartphones (Samsung).
 The 30 subjects wore the smartphones on the waist.
 Activities were coded using manual observation of video-tapes of the subjects.
 
