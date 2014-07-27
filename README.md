@@ -10,16 +10,19 @@ To read the tidy dataset in, use read.table.
 ## details
 First, it downloads the zipped file.
 Then it unzips the directory structure and files.
+The values of the measurements were in test/X_test.txt. 
+The activity values were in test/Y_test.txt.
+The subject IDs were in test/subject_test.txt.
 
 It pulls out the files to create a training set (with activity values and subject ID values), and 
 a test set (with activity values and subject ID values). The activity values and subject ID values are 
 placed at the beginning of each set using cbind.
 
-1)    Merges the training and the test sets to create one data set.
+1)    Merges the training and the test sets to create one data set. The sets were combined with rbind.
 
 1.5) labels with the descriptive variable names (step 4).  These are read in from features.txt. 
-The features vector has to have subject ID and Activity added to it in the same order that cbind put them.
- This is done by removing forbidden characters, making commas into underscores,
+The features vector has to have subject ID and Activity added to it in the same order that cbind was performed for the data.
+ This is cleaned by removing forbidden characters, making commas into underscores,
  and expanding the initial t to time and the initial f to freq. 
  The variable names were left in CamelCase to provide a visual clue when words were combined.
 
@@ -28,7 +31,7 @@ This was done by selecting only variables that had mean and std in them. Mean wa
 with an initial capital letter, as well as with a lower case initial letter.
 
 3)    Uses descriptive activity names to name the activities in the data set.
-The descriptive activity names were found in activity_lables.txt. 
+The descriptive activity names were found in activity_labels.txt. 
 The format was left basically the same, except underscores were removed.
 
 
@@ -36,7 +39,7 @@ The format was left basically the same, except underscores were removed.
 Done in step 1.5 
 
 5)    Creates a second, independent tidy data set with the average of each variable for each activity and each subject. 
-The aggregate does this. This dataset is called tidydata and is written out as tidydata.txt.
+The aggregate command does this. This dataset is called tidydata and is written out as tidydata.txt.
 
 ## Experiment and variable details
 The experiment was performed using accelerometers and gyroscopes in smartphones (Samsung).
@@ -59,3 +62,6 @@ Descriptions are based heavily on the interpretations from Jeff Leek (written in
 and the CTAs, David Hood and Wendel Hope in the Forum 
 https://class.coursera.org/getdata-005/forum/thread?thread_id=23
 And all contributors to that thread.
+
+Also the README.txt and the features_info.txt files were used to describe the variables 
+in the codebook.md.
